@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --color-silver: #f5f7fa;
+  --color-d-grey: #4d4d4d;
+  --color-grey: #717171;
+
+  --color-primary: #4caf4f;
+  --color-secondary: #263238;
+  --color-info: #2194f3;
+
+  --color-test: #4caf4f;
+}
+
+.container {
+  width: 100%;
+  @media (width >= 40rem /* 640px */) {
+    max-width: 40rem /* 640px */;
+  }
+  @media (width >= 48rem /* 768px */) {
+    max-width: 48rem /* 768px */;
+  }
+  @media (width >= 64rem /* 1024px */) {
+    max-width: 64rem /* 1024px */;
+  }
+}
+
+.btn-main {
+  @apply bg-primary text-white px-5.5 py-2 rounded-md;
+}
