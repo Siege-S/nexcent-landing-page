@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -10,7 +11,7 @@
   --color-secondary: #263238;
   --color-info: #2194f3;
 
-  --color-test: #4caf4f;
+  --color-hover: #237d31;
 }
 
 .container {
@@ -27,5 +28,5 @@
 }
 
 .btn-main {
-  @apply bg-primary text-white px-5.5 py-2 rounded-md;
+  @apply bg-primary text-white px-5.5 py-2 rounded-md cursor-pointer hover:text-silver hover:bg-hover active:bg-hover;
 }
