@@ -4,7 +4,7 @@
 
 
 
-🔗 Live Demo: [View Live Site](https://siege-s.github.io/nexcent-landing-page/)
+🔗 Live Demo: [View Live Site](https://siege-s.github.io/nextcent-landing-page/)
 
 📸 Long Screen Shot!
 <img width="2880" height="6750" alt="nexcent-desktop" src="https://github.com/user-attachments/assets/2e4ce270-cca2-4f04-9fa9-57daeb6a57c3" />
